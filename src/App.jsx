@@ -6,7 +6,7 @@ import Projects from './pages/Projects'
 import Auth from './pages/Auth'
 import Footer from './components/Footer'
 import { useContext, useEffect } from 'react'
-import { tokenAuthContext } from './contexts/AuthContentAPI.JSX'
+import { tokenAuthContext } from './contexts/AuthContentAPI.jsx'
 import Pnf from './components/Pnf'
 
 function App() {
