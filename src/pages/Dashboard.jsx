@@ -4,7 +4,7 @@ import { useContext, useEffect, useState } from "react"
 import Header from "../components/Header"
 import Profile from "../components/Profile"
 import View from "../components/View"
-import { tokenAuthContext } from "../contexts/AuthContentAPI.JSX"
+import { tokenAuthContext } from "../contexts/AuthContentAPI.jsx"
 
 const Dashboard = () => {
 

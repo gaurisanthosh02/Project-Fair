@@ -5,7 +5,7 @@ import App from './App.jsx'
 import './bootstrap.min.css'
 import { BrowserRouter } from 'react-router-dom'
 import ContextAPI from './contexts/ContextAPI.jsx'
-import AuthContentAPI from './contexts/AuthContentAPI.JSX'
+import AuthContentAPI from './contexts/AuthContentAPI.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode> 

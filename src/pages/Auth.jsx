@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useContext, useState } from 'react'
 import { loginAPI, registerAPI } from '../services/allAPI'
 import Spinner from 'react-bootstrap/Spinner';
-import { tokenAuthContext } from '../contexts/AuthContentAPI.JSX'
+import { tokenAuthContext } from '../contexts/AuthContentAPI.jsx'
 
 const Auth = ({insideRegister}) => {
 
